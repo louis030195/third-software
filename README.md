@@ -1,6 +1,8 @@
 # Software 3.0
 
 >Civilization advances by extending the number of important operations which we can perform without thinking about them.
+>
+>~ Alfred North Whitehead
 
 ![image](https://github.com/louis030195/third-software/assets/25003283/b7819ba7-8d94-405d-83e9-ca9470833098)
 
@@ -39,6 +41,10 @@ The future of AI will be similar to that of human civilization, an interconnecti
 The rapid progression of AI research and development is leading us towards a future where AI systems, treated as exceptionally bright employees, can significantly enhance human capabilities and improve the quality of life. The integration of Software 1.0 and Software 3.0, along with the development of hierarchical AI systems, paves the way for a future where technology is an invisible yet indispensable extension of our natural faculties.
 
 Humans will be able to interact with technology with less friction, higher informational bandwidth, and achieve more with less conscious effort
+
+>Civilization advances by extending the number of important operations which we can perform without thinking about them.
+>
+>~ Alfred North Whitehead
 
 ![image](https://github.com/louis030195/third-software/assets/25003283/c379a5b4-399e-4ca5-ae22-35e5df17a14e)
 
