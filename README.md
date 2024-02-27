@@ -18,7 +18,8 @@ The term "intuitive" refers to a user experience that aligns closely with the in
 - **Reasoning, Logic, and Planning:** LLMs have yet to reach human-level performance in these areas.
 
 #### **Bridging the Gap: Software 1.0 Meets Software 3.0**
-Integration of Software 1.0 with Software 3.0 leads to sophisticated AI agents, combining rule-based reasoning with data-driven insights. This integration enhances LLMs with mathematical operations, access to external information, and the ability to perform actions in external systems.
+Integrating Software 1.0 with Software 3.0 enable a new form of universal computing machine that is not limited by client-server architectures and such networking structures developed for the traditional web.
+These are popular ways to cover the bottlenecks of Software 3.0:
 
 ![image](https://github.com/louis030195/third-software/assets/25003283/87e5496c-e04a-4b3c-aea2-5b8ad6597c0b)
 
