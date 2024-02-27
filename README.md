@@ -24,19 +24,21 @@ These are popular ways to cover the bottlenecks of Software 3.0:
 ![image](https://github.com/louis030195/third-software/assets/25003283/87e5496c-e04a-4b3c-aea2-5b8ad6597c0b)
 
 #### **The Evolutionary Path: From Hacks to End-to-End Solutions**
-The journey from isolated solutions to integrated, end-to-end systems is marked by the transition from manual feature extraction to holistic models that learn directly from data. This evolution reflects a broader trend towards systems that are more capable of handling complex tasks with minimal human intervention.
+Historically we've seen the Machine Learning field going from isolated solutions to integrated, end-to-end systems. For example in vision, which is marked by the transition from manual feature extraction to holistic models that learn directly from data. This evolution reflects a broader trend towards systems that are more capable of handling complex tasks with minimal human intervention.
 
-![image](https://github.com/louis030195/third-software/assets/25003283/f78cf9ce-877f-4f97-a2bc-4507b1726ee5)
+It is foreseeable that future foundation models will integrate new components that will solve bottlenecks, for example we can imagine LLMs capable of doing mathematics, reasoning, planning, by default. Access to external information, on the other hand, is more of an infrastructure problem, and would require web adaptation.
 
-Falling for quick hacks is a short-sighted move that squanders time. Investing in foundational thinking secures a win in the long term game
+In general it is easy to fall for quick hacks, but is a short-sighted move that squanders time. Investing in foundational thinking secures a win in the long term game
 
 ### **Futuristic AI Architectures: Swarms and Hierarchies**
-The future of AI lies in the interconnectedness of models and systems, moving from isolated entities to a cohesive swarm orchestrated by an LLM. This structure allows for a division of labor, where complex tasks are broken down and handled by the most suitable AI entity, akin to the hierarchical structure within a company.
+The future of AI will be similar to that of human civilization, an interconnection of models and systems, moving from isolated entities to a cohesive swarm orchestrated by an LLM. This structure enables a division of labor, where complex tasks are broken down and taken on by the most appropriate AI entity, similar to the hierarchical structure within a company.
 
 ![image](https://github.com/louis030195/third-software/assets/25003283/e201cdb1-492c-46a6-86f6-4b38eacf2f58)
 
 ### **Conclusion: Envisioning the Future of AI**
 The rapid progression of AI research and development is leading us towards a future where AI systems, treated as exceptionally bright employees, can significantly enhance human capabilities and improve the quality of life. The integration of Software 1.0 and Software 3.0, along with the development of hierarchical AI systems, paves the way for a future where technology is an invisible yet indispensable extension of our natural faculties.
+
+Humans will be able to interact with technology with less friction, higher informational bandwidth, and achieve more with less conscious effort
 
 ![image](https://github.com/louis030195/third-software/assets/25003283/c379a5b4-399e-4ca5-ae22-35e5df17a14e)
 
