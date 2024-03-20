@@ -1,51 +1,26 @@
 # Software 3.0
 
->Civilization advances by extending the number of important operations which we can perform without thinking about them.
->
->~ Alfred North Whitehead
-
 ![image](https://github.com/louis030195/third-software/assets/25003283/b7819ba7-8d94-405d-83e9-ca9470833098)
 
-- **Software 1.0** is the era of explicit programming, requiring detailed instructions for every operation.
-- **Software 2.0** introduced neural networks, shifting towards learning from data and reducing the need for explicit programming.
-- **Software 3.0**, powered by LLMs like ChatGPT, abstracts complexity to a new level, enabling complex operations with minimal input and making technology interactions more natural and intuitive.
+In the grand narrative of human evolution, our species has been remarkably adept at overcoming the challenges posed by our environment. From the era of hunting mammoths to the complexities of modern society, we've specialized in tasks that ensured survival and dominance. Yet, this specialization came with a cost.
 
-The term "intuitive" refers to a user experience that aligns closely with the instinctual behaviors and problem-solving strategies honed by humans throughout their evolutionary history.
+Our brain is now physically hard-wired for our ancestral environmnent, where the monkey brain still dominates our decision-making processes. The monkey brain is essentally in charge of navigation and dealing with the physics of the world. It's the part of the brain that's responsible for our survival instincts, our fight or flight response, and our ability to navigate the physical world.
 
-### **Challenges and Solutions in the Evolution of LLMs**
-#### **Challenges Facing LLMs**
-- **Math:** LLMs struggle with mathematical operations.
-- **Access to External Information:** LLMs are limited by their closed environment.
-- **Performing Actions in External Systems:** LLMs can generate instructions but cannot execute actions directly.
-- **Reasoning, Logic, and Planning:** LLMs have yet to reach human-level performance in these areas.
+On the other hand our new brain (neocortex) is responsible for our higher cognitive functions, such as reasoning, language, and problem-solving. It's the part of the brain that allows us to think abstractly, to plan for the future, and to imagine things that don't exist in the physical world.
 
-#### **Bridging the Gap: Software 1.0 Meets Software 3.0**
-Integrating Software 1.0 with Software 3.0 enable a new form of universal computing machine that is not limited by client-server architectures and such networking structures developed for the traditional web.
-These are popular ways to cover the bottlenecks of Software 3.0:
+Think of the neocortex as a litte boy sitting on the back of an elephant:
 
-![image](https://github.com/louis030195/third-software/assets/25003283/87e5496c-e04a-4b3c-aea2-5b8ad6597c0b)
+![image](https://github.com/louis030195/third-software/assets/25003283/c8fb34f4-6e78-4dfc-a231-1c034a66be18)
 
-#### **The Evolutionary Path: From Hacks to End-to-End Solutions**
-Historically we've seen the Machine Learning field going from isolated solutions to integrated, end-to-end systems. For example in vision, which is marked by the transition from manual feature extraction to holistic models that learn directly from data. This evolution reflects a broader trend towards systems that are more capable of handling complex tasks with minimal human intervention.
+> Civilization advances by extending the number of important operations which we can perform without thinking about them. - Alfred North Whitehead
 
-It is foreseeable that future foundation models will integrate new components that will solve bottlenecks, for example we can imagine LLMs capable of doing mathematics, reasoning, planning, by default. Access to external information, on the other hand, is more of an infrastructure problem, and would require web adaptation.
+As this philosopher Alfred North Whitehead pointed out, the evolution of civilization has been marked by our ability to offload cognitive tasks to the monkey brain so that we can focus on more important things.
 
-In general it is easy to fall for quick hacks, but is a short-sighted move that squanders time. Investing in foundational thinking secures a win in the long term game
+Technology is a new way to do so, for example when using Google Maps to navigate a city, we're offloading the task of navigation to Google's algorithms, freeing up our neocortex to focus on other things.
 
-### **Futuristic AI Architectures: Swarms and Hierarchies**
-The future of AI will be similar to that of human civilization, an interconnection of models and systems, moving from isolated entities to a cohesive swarm orchestrated by an LLM. This structure enables a division of labor, where complex tasks are broken down and taken on by the most appropriate AI entity, similar to the hierarchical structure within a company.
+AI has recently reached an _activation energy_ that allow humans to program the world, that is to create life, in a very intuitive language: English, this is called "**Software 3.0**". This is a game changer, as it allows us to offload even more tasks to technology, and to focus on the things that really matter.
 
-![image](https://github.com/louis030195/third-software/assets/25003283/e201cdb1-492c-46a6-86f6-4b38eacf2f58)
+It is different than **Software 2.0** and **Software 1.0** which required more efforts for humans to create artificial life.
 
-### **Conclusion: Envisioning the Future of AI**
-The rapid progression of AI research and development is leading us towards a future where AI systems, treated as exceptionally bright employees, can significantly enhance human capabilities and improve the quality of life. The integration of Software 1.0 and Software 3.0, along with the development of hierarchical AI systems, paves the way for a future where technology is an invisible yet indispensable extension of our natural faculties.
-
-Humans will be able to interact with technology with less friction, higher informational bandwidth, and achieve more with less conscious effort
-
->Civilization advances by extending the number of important operations which we can perform without thinking about them.
->
->~ Alfred North Whitehead
-
-![image](https://github.com/louis030195/third-software/assets/25003283/c379a5b4-399e-4ca5-ae22-35e5df17a14e)
 
 [by louis030195](https://x.com/louis030195)
