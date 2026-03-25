@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Software 3.0</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'SF Mono', 'Fira Code', 'Cascadia Code', monospace;
+            background: #000;
+            color: #e0e0e0;
+            min-height: 100vh;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 720px;
+            margin: 0 auto;
+            padding: 80px 24px;
+        }
+        h1 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: #fff;
+            margin-bottom: 12px;
+            letter-spacing: -0.03em;
+        }
+        .subtitle {
+            font-size: 1.1rem;
+            color: #888;
+            margin-bottom: 64px;
+        }
+        .evolution {
+            margin-bottom: 64px;
+        }
+        .phase {
+            border-left: 2px solid #333;
+            padding: 0 0 40px 24px;
+            position: relative;
+        }
+        .phase:last-child { padding-bottom: 0; }
+        .phase::before {
+            content: '';
+            position: absolute;
+            left: -6px;
+            top: 0;
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            background: #333;
+        }
+        .phase.active::before { background: #fff; }
+        .phase.future::before {
+            background: #000;
+            border: 2px solid #555;
+        }
+        .phase-label {
+            font-size: 0.7rem;
+            text-transform: uppercase;
+            letter-spacing: 0.15em;
+            color: #555;
+            margin-bottom: 4px;
+        }
+        .phase-title {
+            font-size: 1.2rem;
+            color: #fff;
+            font-weight: 600;
+            margin-bottom: 8px;
+        }
+        .phase.active .phase-title { color: #fff; }
+        .phase.future .phase-title { color: #666; }
+        .phase p {
+            font-size: 0.85rem;
+            color: #888;
+        }
+        .phase.future p { color: #555; }
+        .insight {
+            background: #0a0a0a;
+            border: 1px solid #222;
+            padding: 32px;
+            margin-bottom: 48px;
+        }
+        .insight p {
+            font-size: 0.9rem;
+            color: #aaa;
+            margin-bottom: 16px;
+        }
+        .insight p:last-child { margin-bottom: 0; }
+        .insight strong { color: #fff; }
+        .numbers {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1px;
+            background: #222;
+            border: 1px solid #222;
+            margin-bottom: 48px;
+        }
+        .number {
+            background: #0a0a0a;
+            padding: 24px;
+        }
+        .number-value {
+            font-size: 1.8rem;
+            font-weight: 700;
+            color: #fff;
+            margin-bottom: 4px;
+        }
+        .number-label {
+            font-size: 0.7rem;
+            color: #555;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+        }
+        .cta {
+            margin-top: 64px;
+            padding-top: 48px;
+            border-top: 1px solid #222;
+        }
+        .cta-title {
+            font-size: 1.1rem;
+            color: #fff;
+            margin-bottom: 8px;
+        }
+        .cta p {
+            font-size: 0.85rem;
+            color: #666;
+            margin-bottom: 24px;
+        }
+        .links {
+            display: flex;
+            gap: 16px;
+            flex-wrap: wrap;
+        }
+        a {
+            color: #888;
+            text-decoration: none;
+            font-size: 0.85rem;
+            padding: 8px 16px;
+            border: 1px solid #333;
+            transition: all 0.2s;
+        }
+        a:hover {
+            color: #fff;
+            border-color: #fff;
+        }
+        a.primary {
+            background: #fff;
+            color: #000;
+            border-color: #fff;
+        }
+        a.primary:hover {
+            background: #e0e0e0;
+        }
+        .footer {
+            margin-top: 80px;
+            padding-top: 24px;
+            border-top: 1px solid #111;
+            font-size: 0.75rem;
+            color: #333;
+        }
+        .footer a { border: none; padding: 0; color: #555; }
+        .footer a:hover { color: #888; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>software 3.0</h1>
+        <p class="subtitle">models that write, maintain, and improve their own software</p>
+
+        <div class="evolution">
+            <div class="phase">
+                <div class="phase-label">1.0 — deterministic</div>
+                <div class="phase-title">humans write code</div>
+                <p>abstractions, scripts, APIs. every behavior is hand-coded. scales with engineer headcount.</p>
+            </div>
+            <div class="phase active">
+                <div class="phase-label">2.0 — probabilistic</div>
+                <div class="phase-title">models generate code</div>
+                <p>LLMs write abstractions and scripts. agents chain tool calls. humans still architect and supervise. scales with compute.</p>
+            </div>
+            <div class="phase future">
+                <div class="phase-label">3.0 — self-improving</div>
+                <div class="phase-title">models train models</div>
+                <p>specialized models fine-tuned on your data. the LLM maintains and improves the specialized models. skills that get better the more you use them. scales with data.</p>
+            </div>
+        </div>
+
+        <div class="insight">
+            <p><strong>the path:</strong> capture everything (screen, audio, inputs) &rarr; fine-tune specialized models on your workflows &rarr; trigger automations based on what you do &rarr; the model that orchestrates this also improves the specialized models</p>
+            <p>everything built in software 1.0 is temporary. the interface between humans and computers will be rebuilt by models that understand how you actually work.</p>
+        </div>
+
+        <div class="numbers">
+            <div class="number">
+                <div class="number-value">$500/m</div>
+                <div class="number-label">GPU cost to run your own models</div>
+            </div>
+            <div class="number">
+                <div class="number-value">$15k/m</div>
+                <div class="number-label">cloud API cost for the same workload</div>
+            </div>
+            <div class="number">
+                <div class="number-value">15k</div>
+                <div class="number-label">training examples from 2 months of screen data</div>
+            </div>
+            <div class="number">
+                <div class="number-value">76%</div>
+                <div class="number-label">token accuracy after 6h fine-tune on A100</div>
+            </div>
+        </div>
+
+        <div class="cta">
+            <div class="cta-title">we're building this at screenpipe</div>
+            <p>AI that knows everything you've seen, said, or heard. capture your workflow data, fine-tune models on it, automate your work.</p>
+            <div class="links">
+                <a href="https://screenpi.pe" class="primary">screenpipe.com</a>
+                <a href="https://github.com/mediar-ai/screenpipe">github</a>
+                <a href="https://github.com/louis030195/screenpipe-finetune">fine-tuning toolkit</a>
+                <a href="https://x.com/louis030195">@louis030195</a>
+            </div>
+        </div>
+
+        <div class="footer">
+            <a href="https://x.com/louis030195">louis beaumont</a> &middot; 2026
+        </div>
+    </div>
+</body>
+</html>
